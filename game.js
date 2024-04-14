@@ -34,19 +34,17 @@ const computerChoice = choices[b]
      computerDisplay.textContent = "Computer" + computerChoice;
       resultDisplay.textContent = result;
 
-    // resultDisplay.classList.remove("greenText","redText")
-    //  switch(result){
-    //      case "YOU WIN!":
-    //          resultDisplay.classList.add("greenText");
-    //          playerScore ++;
-    //          playerScoreDisplay.textContent= playerScore;
-    //          break;
-    //          case "YOU LOSE!":
-    //          resultDisplay.classList.add("redText");
-    //          computerScore ++;
-    //          computerScoreDisplay.textContent = computerScore;
-    //          break;
+    resultDisplay.classList.remove("greenText","redText")
+     switch(result){
+         case "YOU WIN!":
+             resultDisplay.classList.add("greenText");
+            
+             break;
+             case "YOU LOSE!":
+             resultDisplay.classList.add("redText");
+            
+             break;
             
 
-    // }
+    }
 }

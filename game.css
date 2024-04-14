@@ -43,10 +43,3 @@ h1{
     font-size: 2rem;
 }
 
-.greenText,#playerScoreDisplay{
-    color: green(130,84%,54%);
-}
-
-.redText,#computerScoreDisplay{
-    color: red(0,84%,60%);
-}
