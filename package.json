@@ -1,0 +1,26 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivianamati/ROCK-PAPER-SCISSORS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vivianamati/ROCK-PAPER-SCISSORS/issues"
+  },
+  "homepage": "https://github.com/vivianamati/ROCK-PAPER-SCISSORS#readme",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "jest": "^30.3.0"
+  }
+}

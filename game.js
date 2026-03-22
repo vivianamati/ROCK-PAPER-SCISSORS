@@ -3,19 +3,19 @@ const playerDisplay = document.getElementById("playerDisplay");
 const computerDisplay = document.getElementById("computerDisplay");
 const resultDisplay = document.getElementById("resultDisplay");
 const playerScoreDisplay = document.getElementById("playerScoreDisplay");
-const computerScoreDisplay = document.getElementById("computerScoreDisplay")
+const computerScoreDisplay = document.getElementById("computerScoreDisplay");
 let playerScore = 0;
 let computerScore = 0;
 
 
 function playGame(playerChoice){
-    const a = Math.random()*3
-const b = Math.floor(a)
-const computerChoice = choices[b]
+    const a = Math.random()*3;
+const b = Math.floor(a);
+const computerChoice = choices[b];
     let result = "";
 
     if(playerChoice == computerChoice){
-        result = "IT'S A TIE"
+        result = "IT'S A TIE";
     }
     else{
         switch(playerChoice){
@@ -34,7 +34,7 @@ const computerChoice = choices[b]
      computerDisplay.textContent = "Computer" + computerChoice;
       resultDisplay.textContent = result;
 
-    resultDisplay.classList.remove("greenText","redText")
+    resultDisplay.classList.remove("greenText","redText");
      switch(result){
          case "YOU WIN!":
              resultDisplay.classList.add("greenText");
